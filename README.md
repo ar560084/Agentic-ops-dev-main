@@ -1,4 +1,4 @@
-Azure Observability Workshop - Introduction to Concepts and Technologies
+Azure Observability - Introduction to Concepts and Technologies
 Welcome to Modern Observability
 In today's complex, distributed, and cloud-native world, understanding what's happening inside your applications and infrastructure is more critical than ever. This introduction will guide you through the fundamental concepts, technologies, and practices that form the foundation of modern observability.
 
