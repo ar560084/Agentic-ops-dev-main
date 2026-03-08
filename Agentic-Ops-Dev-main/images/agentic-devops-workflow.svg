@@ -1,0 +1,117 @@
+<svg viewBox="0 0 1500 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <rect x="80" y="20" width="1240" height="80" rx="40" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+  <text x="700" y="68" font-family="Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle">
+    Agentic DevOps Workflow - Observability Implementation
+  </text>
+  
+  <!-- Workflow Progress -->
+  <!-- Traditional Monitoring -->
+  <rect x="50" y="150" width="320" height="180" rx="20" fill="#e0e0e0"/>
+  <text x="210" y="190" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">Traditional Monitoring</text>
+  <text x="70" y="225" font-family="Arial, sans-serif" font-size="16">• Static thresholds</text>
+  <text x="70" y="250" font-family="Arial, sans-serif" font-size="16">• Reactive alerts</text>
+  <text x="70" y="275" font-family="Arial, sans-serif" font-size="16">• Manual investigation</text>
+  <text x="70" y="300" font-family="Arial, sans-serif" font-size="16">• Limited context</text>
+  
+  <!-- Arrow 1 -->
+  <path d="M 370 240 L 470 240" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Three Pillars Setup -->
+  <rect x="470" y="150" width="320" height="180" rx="20" fill="#4682B4"/>
+  <text x="630" y="190" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="white">Three Pillars Setup</text>
+  <text x="490" y="225" font-family="Arial, sans-serif" font-size="16" fill="white">📊 Metrics Collection</text>
+  <text x="490" y="250" font-family="Arial, sans-serif" font-size="16" fill="white">📝 Centralized Logs</text>
+  <text x="490" y="275" font-family="Arial, sans-serif" font-size="16" fill="white">🔗 Distributed Traces</text>
+  <text x="490" y="300" font-family="Arial, sans-serif" font-size="16" fill="white">📈 Real-time Dashboards</text>
+  
+  <!-- Arrow 2 -->
+  <path d="M 790 240 L 1000 240" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- AI Enhancement -->
+  <rect x="1000" y="150" width="320" height="180" rx="20" fill="#ff6b4a"/>
+  <text x="1160" y="190" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="white">AI Enhancement</text>
+  <text x="1020" y="225" font-family="Arial, sans-serif" font-size="16" fill="white">🤖 Azure SRE Agent</text>
+  <text x="1020" y="250" font-family="Arial, sans-serif" font-size="16" fill="white">🎯 Anomaly Detection</text>
+  <text x="1020" y="275" font-family="Arial, sans-serif" font-size="16" fill="white">⚡ Auto Remediation</text>
+  <text x="1020" y="300" font-family="Arial, sans-serif" font-size="16" fill="white">🔮 Predictive Analytics</text>
+  
+  <!-- Azure Observability Platform Box -->
+  <rect x="150" y="360" width="1100" height="60" rx="30" fill="#f5f5f5" stroke="#666" stroke-width="2"/>
+  <text x="700" y="395" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Azure Observability Platform</text>
+  
+  <!-- Platform Components -->
+  <!-- Azure Monitor -->
+  <rect x="180" y="450" width="220" height="100" rx="15" fill="#4682B4"/>
+  <text x="290" y="480" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">Azure Monitor</text>
+  <text x="290" y="505" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">Central Platform</text>
+  <text x="290" y="525" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">Metrics &amp; Alerts</text>
+  
+  <!-- Application Insights -->
+  <rect x="420" y="450" width="220" height="100" rx="15" fill="#4682B4"/>
+  <text x="530" y="480" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">Application Insights</text>
+  <text x="530" y="505" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">APM &amp; Traces</text>
+  <text x="530" y="525" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">Custom Telemetry</text>
+  
+  <!-- Log Analytics -->
+  <rect x="660" y="450" width="220" height="100" rx="15" fill="#4682B4"/>
+  <text x="770" y="480" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">Log Analytics</text>
+  <text x="770" y="505" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">KQL Queries</text>
+  <text x="770" y="525" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">Log Correlation</text>
+  
+  <!-- Azure SRE Agent -->
+  <rect x="950" y="450" width="220" height="100" rx="15" fill="#ff6b4a"/>
+  <text x="1060" y="480" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">Azure SRE Agent</text>
+  <text x="1060" y="505" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">AI-Powered SRE</text>
+  <text x="1060" y="525" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">Intelligent Automation</text>
+  
+  <!-- Connection lines -->
+  <line x1="290" y1="550" x2="290" y2="580" stroke="#333" stroke-width="2"/>
+  <line x1="530" y1="550" x2="530" y2="580" stroke="#333" stroke-width="2"/>
+  <line x1="770" y1="550" x2="770" y2="580" stroke="#333" stroke-width="2"/>
+  <line x1="290" y1="580" x2="770" y2="580" stroke="#333" stroke-width="2"/>
+  <line x1="530" y1="580" x2="530" y2="620" stroke="#333" stroke-width="2"/>
+  
+  <!-- Multi-Cloud Integration Box -->
+  <rect x="200" y="620" width="660" height="60" rx="30" fill="#f5f5f5" stroke="#666" stroke-width="2"/>
+  <text x="530" y="655" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Multi-Cloud Integration</text>
+  
+  <!-- Cloud Providers -->
+  <!-- Azure -->
+  <rect x="260" y="710" width="160" height="90" rx="15" fill="#0078d4"/>
+  <text x="340" y="740" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">Azure</text>
+  <text x="340" y="765" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">Native Integration</text>
+  
+  <!-- AWS -->
+  <rect x="450" y="710" width="160" height="90" rx="15" fill="#FF9900"/>
+  <text x="530" y="740" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">AWS</text>
+  <text x="530" y="765" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">CloudWatch Export</text>
+  
+  <!-- GCP -->
+  <rect x="640" y="710" width="160" height="90" rx="15" fill="#4285F4"/>
+  <text x="720" y="740" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">GCP</text>
+  <text x="720" y="765" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">Operations Export</text>
+  
+  <!-- Connection from clouds to Multi-Cloud Integration -->
+  <line x1="340" y1="710" x2="340" y2="680" stroke="#333" stroke-width="2"/>
+  <line x1="530" y1="710" x2="530" y2="680" stroke="#333" stroke-width="2"/>
+  <line x1="720" y1="710" x2="720" y2="680" stroke="#333" stroke-width="2"/>
+  
+  <!-- Connection from SRE Agent to Business Impact -->
+  <line x1="1060" y1="550" x2="1060" y2="650" stroke="#333" stroke-width="2"/>
+  
+  <!-- Business Impact -->
+  <rect x="910" y="650" width="300" height="170" rx="20" fill="#4a7c4e"/>
+  <text x="1060" y="690" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="white">Business Impact</text>
+  <text x="930" y="725" font-family="Arial, sans-serif" font-size="16" fill="white">✅ 80% Faster MTTR</text>
+  <text x="930" y="750" font-family="Arial, sans-serif" font-size="16" fill="white">✅ 60% Less False Alerts</text>
+  <text x="930" y="775" font-family="Arial, sans-serif" font-size="16" fill="white">💰 40% Cost Reduction</text>
+  <text x="930" y="800" font-family="Arial, sans-serif" font-size="16" fill="white">📈 Proactive Optimization</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+</svg>
